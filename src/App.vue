@@ -38,7 +38,7 @@ onUnmounted(() => window.removeEventListener("mousemove", updateValue));
     </header>
 
     <main
-      class="min-h-[91vh] flex flex-col gap-5 items-center justify-center pb-5"
+      class="min-h-[91vh] flex flex-col gap-5 items-center justify-center p-10"
     >
       <div
         class="flex items-center justify-center gap-5 bg-green-400 text-zinc-900 w-[350px] h-[100px] rounded"
